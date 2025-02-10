@@ -1,0 +1,34 @@
+{
+    // Coding convention
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Cmake
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.buildDirectory":"/home/jyan/2D_games/build",
+    "cmake.statusbar.visibility": "compact",
+    "cmake.parallelJobs": 8,
+    "cmake.statusbar.advanced": {
+        "kit": {"visibility": "hidden"},
+        "ctest": {"visibility": "hidden"},
+        "status": {"visibility": "hidden"},
+        "launch": {"visibility": "hidden"}
+    },
+    "cmake.debugConfig": {
+        "cwd": "${command:cmake.buildDirectory}/test",
+        // "args": [
+        //     "--help",
+        // ]
+    },
+    "cmake.buildArgs": [
+        "install",
+    ],
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+}
