@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
         app.movePlayer(*app.getInputs());
 
-        // app.blit();
+        app.blit();
         app.presentScene();
 
         SDL_Delay(16);
